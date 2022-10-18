@@ -1,0 +1,25 @@
+body {
+    background: white;
+  }
+    p {
+    color: black;
+    }
+    h1 {
+    font-weight: bold;
+    }
+    img{float: right;
+    height: 300px;
+    border: 5px solid;
+    
+    }
+
+  #nav{
+    float: left;
+    width: 10%;
+    height: 2500px;
+    background-color: antiquewhite;
+    margin-left: 50px;
+    padding-left: 15px;
+
+  }
+
