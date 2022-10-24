@@ -8,8 +8,9 @@
 }
 .wrapper{
   background: #f60bee;
-  position: fixed;
+  position: fixed
   width: 100%;
+  height: fit-content;
 }
 .wrapper nav{
   position: relative;
