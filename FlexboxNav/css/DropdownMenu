@@ -1,43 +1,63 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>DropdownMenu</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
-  <link rel="stylesheet" href="style.css">     
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dropdown Menu</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
-
-    <!-- header -->
-    <div>
-        <h1>Eryka's Bakery</h1></div>
-
-        <!-- Nav Bar -->
-        <img class="logo" src="https://down-yuantu.pngtree.com/element_origin_pic/16/07/06/223a7eaa5629a24c8f9393d83fc39052.png?e=1666325627&st=ZWE2ZTdlMGRiNTNhOGFhOWVhNDJkN2Q5MjlhNGRiMDA&n=—Pngtree—creative+company+logo_1197025.png" alt="logo">
-        <nav>
-            <ul class="nav_links">
-                <li><a href="#"><i class="fa fa-home"></i>&nbsp;Home</a></li>
-                <li><a href="#"><i class="fa fa-envelope"></i>&nbsp;Contact</a></li>
-                <li><a href="#"><i class="fa fa-user-o"></i>&nbsp;Account</a></li>
-                <li class="dropdown">
-                    <a href="#">Shop</a>
-                    <ul class="dropdown-menu">
-
-                    <li><i class="fa fa-home"></i>Candy<a href="#"&nbsp;
-                    Candy</a></li>
-
-                    <li><i class="fa fa-home"></i>Cookies<a href="#"&nbsp;
-                    cookies<a/></li>
-
-                    <li><i class="fa fa-home"></i>Cakes<a href="#"&nbsp;
-                    Cakes</a></li>
-
-                    <li><i class="fa fa-home"></i>Bread<a href="#"&nbsp;
-                        Bread</a></li>
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content"> 
+        <ul class="links">
+            <li><a href="#"><i class="fa fa-home"></i>&nbsp;Home</a></li>
+            <li><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;About</a></li>
+          <li>
+            <a href="#" class="desktop-link">Features</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Features</label> 
+            <ul>
+              <li><a href="#">Quality Ingredients</a></li>
+              <li><a href="#">Free Shipping</a></li>
+              <li><a href="#">Fresh Supplies</a></li>
+              <li><a href="#">Top Of The Line Bakeware</a></li>
             </ul>
-                </li>
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Services</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Services</label>
+            <ul>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Catering</a></li>
+              <li><a href="#">Special Events</a></li>
+              <li>
+                <a href="#" class="desktop-link">More Items</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                  <li><a href="#">Cakes</a></li>
+                  <li><a href="#">Cookies</a></li>
+                  <li><a href="#">Pastries</a></li>
+                </ul>
+              </li>
             </ul>
-        </nav>
-        <a class="cta" href="#"><button>Contact</button></a>&nbsp;
-    </header>
+          </li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>..//..............
+  </div>
 </body>
-</html>
