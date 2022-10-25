@@ -48,7 +48,9 @@ nav .content .links{
 }
 .content .links li label{
   display: none;
+  justify-content: center;
 }
+Drop Down Menu
 .content .links li a:hover,
 .content .links li label:hover{
   background: #323c4e;
@@ -61,7 +63,10 @@ nav .content .links{
   line-height: 70px;
   width: 70px;
   text-align: center;
+  justify-content: center;
 }
+
+
 .wrapper .menu-icon{
   display: none;
 }
@@ -76,6 +81,8 @@ nav .content .links{
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s ease;
+
+
 }
 .wrapper #show-search:checked ~ .search-box{
   opacity: 1;
@@ -136,4 +143,9 @@ nav .content .links{
   position: absolute;
   top: 0;
   right: calc(-100% + 8px);
+}
+@media only screen and (max-width: 768px) {
+  ul {
+    flex-direction: column;
+  }
 }

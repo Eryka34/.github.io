@@ -8,18 +8,17 @@ body {
     font-weight: bold;
     }
     img{float: right;
-    height: 300px;
-    border: 5px solid;
-    
+    height: 150px;
     }
+
 
   #nav{
     float: left;
     width: 10%;
-    height: 2500px;
-    background-color: antiquewhite;
-    margin-left: 50px;
-    padding-left: 15px;
+    height: 625px;
+    background-color: rgba(232, 136, 188, 0.339);
+    margin-left: -5px;
+    padding-left: 1px;
 
   }
 
