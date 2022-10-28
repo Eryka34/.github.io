@@ -1,0 +1,24 @@
+input[type=submit] {
+    border: none;
+    background-color: lightgreen;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input, textarea {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+input, textarea {
+    display: block;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+}
+fieldset {
+    border: 2px rgb(red, green, blue);
+}

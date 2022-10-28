@@ -1,62 +1,42 @@
-<html>
-<head> October </head> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Practice</title>
+</head>
 <body>
-<table width="600" border="1" cellspacing="1" cellpadding='1'>
-<thead>
-  <tr>
-       <th>Sun</th>
-       <th>Mon</th>
-       <th>Tue</th>
-       <th>Wed</th>
-       <th>Thu</th>
-       <th>Fri</th>
-       <th>Sat</th>
-  </tr>
-</thead>
-<tbody>
-    <tr>
-      <th>1</th>
-       <th>2</th>
-       <th>3</th>
-       <th>4</th>
-       <th>5</th>
-       <th>6</th>
-       <th>7</th>
-    </tr>
-  <tr>
-      <th>8</th>
-      <th>9</th>
-      <th>10</th>
-      <th>11</th>
-      <th>12</th>
-      <th>13</th>
-      <th>14</th>
-  </tr>
-  <tr>
-      <th>15</th>
-      <th>16</th>
-      <th>17</th>
-      <th>18</th>
-      <th>19</th>
-      <th>20</th>
-      <th>21</th>
-  </tr>
-  <tr>
-      <th>22</th>
-      <th>23</th>
-      <th>24</th>
-      <th>25</th>
-      <th>26</th>
-      <th>27</th>
-      <th>28</th>
-  <tr>   
-  </tr>
-     <th>29</th>
-     <th>30</th>
-     <th>31</th>
-     <th></th>
-     <th></th>
-
-       
-</body>
-</html> 
+  <!-- Form -->
+<form>
+  <!-- personal information -->
+  <fieldset>
+    <legend>personal information</legend>
+    <label for="firstname">firstname</label>
+    <input type="text" name="firstname" id="firstname"
+    placeholder="firstname" required>
+  <label for="lastname">lastname</label>
+  <input type="text" name="lastname" id="lastname"
+  placeholder="lastname" required>
+  <label for="lastname">email:</label>
+  <input type="email" name="email" id="eamail"
+  placeholder="email" required>
+  </fieldset>
+  <!-- credit card info -->
+  <br>
+  <br>
+  <fieldset>
+    <legend>credit card information</legend>
+    <label for="ccnumber">credit card number</label>
+    <input type="number" name="ccnumber" id="ccnumber">
+    <label for="expiration">expiration</label>
+    <input type="date" name="expiration" id="expiration">
+  </fieldset>
+  <br>
+  <br>
+  
+    <textarea name="info" id="info" cols="40" rows="20"></textarea>
+  <br>
+  <input type="sign up" value="Sign Up">
+  </form>
