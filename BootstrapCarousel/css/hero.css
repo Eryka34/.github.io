@@ -1,0 +1,26 @@
+.site-hero{
+    height: 80vh;
+    background-image: url("../assets/branding/wood_bkgrnd.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+
+.hero-text {
+    font-family: cursive;
+    font-style: italic;
+    color: white;
+    font-size: xx-large;
+    font-weight: 300;
+    text-align: center;
+}
+
