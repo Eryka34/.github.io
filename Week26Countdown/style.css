@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+/*
+Turn the hero container into a flexbox as the browser window, and center its contents both horizontally and vertically
+*/
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blueviolet;
+}

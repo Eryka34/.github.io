@@ -13,7 +13,7 @@
 	--secound-bg-color: #191919;
 	--text-color: #fff;
 	--secound-color: #c6c9d8bf;
-	--main-color: #9e088c;
+	--main-color: #fc00f8;
 	--big-font: 5.3rem;
 	--h2-font: 4.2rem;
 	--p-font: 1.1rem;
@@ -98,7 +98,7 @@ section{
 .home{
 	height: 100vh;
 	width: 100%;
-	background: url(../Porfolio/images/uwp96586.jpeg);
+	background: url(../Porfolio/mp4/pexels-cottonbro-9669111.mp4);
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -166,13 +166,34 @@ header.sticky{
 	grid-template-columns: repeat(2, 2fr);
 	align-items: center;
 	grid-gap: 2rem;
+	
 }
 .about-img img{
 	max-width: 100%;
-	width: 500px;
+	width: 700px;
 	height: auto;
-	border-radius: 10px;
+	border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+	background-image: linear-gradient(45deg, #08aeea, #2af598 100%);
+	border: 7px solid;
+	animation: morph 8s ease-in-out infinite;
 }
+	
+
+	@keyframes morph {
+        0%{
+		border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+		border-color: #fc00f8;
+}
+50%{
+	border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+	background-image: linear-gradient(45deg, #fa88ff, #2bd2ff 50%, #2bff88 90%);
+	border-color: #fc00f8;
+}
+100%{
+	border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+	border-color: #fc00f8;
+}
+	}
 .about-text h2{
 	font-size: var(--h2-font);
 	margin-bottom: 20px;
@@ -300,7 +321,25 @@ header.sticky{
 	max-width: 100%;
 	width: 700px;
 	height: auto;
-	border-radius: 10px;
+	border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+	background-image: linear-gradient(45deg, #08aeea, #2af598 100%);
+	border: 7px solid;
+	animation: morph 8s ease-in-out infinite;
+}
+	@keyframes morph {
+        0%{
+		border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+		border-color: #fc00f8;
+}
+50%{
+	border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+	background-image: linear-gradient(45deg, #fa88ff, #2bd2ff 50%, #2bff88 90%);
+	border-color: #fc00f8;
+}
+100%{
+	border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+	border-color: #fc00f8;
+}
 }
 .contact-form h2{
 	font-size: var(--h2-font);
