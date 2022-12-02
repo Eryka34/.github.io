@@ -7,6 +7,7 @@ Turn the hero container into a flexbox as the browser window, and center its con
 
 #hero {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
