@@ -4,16 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Countdown</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<style>
+    html, body {
+    height: 100%;
+    }
+
+    html {
+    background-image: url('../img/sample.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+
+
+    body {
+    background-color: rgba(44,62,80 , 0.6 );
+    background-image: url(/Week26Countdown/img/lava.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: #776b6b;
+    }
+
+
+    .countdown-container {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    }
+
+    .clock-item .inner {
+    height: 0px;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+    }
+
+   .clock-canvas {
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+    height: 0px;
+    padding-bottom: 100%;
+    }
+
+
+    .text {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -50px;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    width: 100%;
+    }
+
+
+</style>
 </head>
 <body>
-    <div id="hero">
-        <h1>COUNTDOWN TILL CHRISTMAS!</h1>
-        <h1 id="countdown">Loading countdown...</h1>
-    </div>
+
+    <div class="countdown-container container">
+        <div class="clock row">
+        
+        <!-- days --> 
+        <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
+
+        <div class="wrap">
+        <div class="inner">
+        <div id="canvas_days" class="clock-canvas"></div>
+
+        <div class="text">
+        <p class="val">0</p>
+        <p class="type-days type-time">DAYS</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+        <!-- hours --> 
+        
+        <div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
+        <div class="wrap">
+        <div class="inner">
+        <div id="canvas_hours" class="clock-canvas"></div>
+        <div class="text">
+        <p class="val">0</p>
+        <p class="type-hours type-time">HOURS</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+        <!-- minutes --> 
+        <div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
+        <div class="wrap">
+        <div class="inner">
+        <div id="canvas_minutes" class="clock-canvas"></div>
+        <div class="text">
+        <p class="val">0</p>
+        <p class="type-minutes type-time">MINUTES</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+        <!-- seconds --> 
+        <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
+        <div class="wrap">
+        <div class="inner">
+        <div id="canvas_seconds" class="clock-canvas"></div>
+        <div class="text">
+        <p class="val">0</p>
+        <p class="type-seconds type-time">SECONDS</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>  
+        </div>
 
 
-    <script src="js/app.js"></script>
 </body>
 </html>
