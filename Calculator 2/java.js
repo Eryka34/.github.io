@@ -18,14 +18,18 @@ function addTwoPlusTwo() {
     result.innerHTML = 2 + 2;
 }
 
-function addOnePlusSix() {
-    result.innerHTML = 1 + 6;
+//Multiplication
+function multiply(n1, n2) {
+    let multiplication = n1 * n2;
+    result.innerHTML = multiplication;
 }
 
-function addThreePlusFive() {
-    result.innerHTML = 3 + 5;
+function divide(n1, n2) {
+    let division = n1 / n2;
+    result.innerHTML = division;
 }
 
-function addNinePlusTwo() {
-    result.innerHTML = 9 + 2;
+function subtract(n1, n2) {
+    let subtraction = n1 - n2;
+    result.innerHTML = subtraction;
 }
