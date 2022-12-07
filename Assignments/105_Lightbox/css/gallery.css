@@ -6,9 +6,11 @@
 #gallery {
   display: flex;
   flex-wrap: wrap;
-  width: 800px;
-  max-width: 100%;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+
 }
 
 /*
@@ -19,12 +21,13 @@
   animation using CSS Transitions.
 */
 #gallery img {
-  height: 200px;
-  margin: 12px;
+  margin: 20px;
   flex: 1 0 auto;
   object-fit: cover;
   opacity: 0.8;
   transition: opacity 0.25s, transform 0.25s;
+  height: 650px;
+  width: 600px;
 }
 
 /*
