@@ -4,7 +4,7 @@
 */
 * {
   box-sizing: border-box;
-  background-color: black;
+  background-color: black
 }
 
 /*
@@ -50,7 +50,7 @@
 */
 #lightboxCloser {
   color: rgb(192, 6, 6);
-  font-family: Verdana, sans-serif;
+  font-family: cursive;
   font-size: 36px;
   font-weight: bold;
   cursor: pointer;
