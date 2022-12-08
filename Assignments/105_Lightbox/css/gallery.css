@@ -26,8 +26,8 @@
   object-fit: cover;
   opacity: 0.8;
   transition: opacity 0.25s, transform 0.25s;
-  height: 650px;
-  width: 600px;
+  height: 450px;
+  width: 450px;
 }
 
 /*
