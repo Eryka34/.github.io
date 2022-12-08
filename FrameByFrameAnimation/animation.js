@@ -20,4 +20,5 @@ function animate(){
     }
 }
 
+
 setInterval(animate, 100)
