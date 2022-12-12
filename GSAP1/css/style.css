@@ -10,7 +10,7 @@ body {
     margin: 10% auto;
 }
 
-.chucked {
+.chucked1 {
     height: 100px;
     width: 100px;
     background-color: darkorange;
@@ -21,7 +21,7 @@ body {
 .chucked2 {
     height: 100px;
     width: 100px;
-    background-color: deeppink;
+    background-color: rgb(255, 11, 194);
     margin-top: 70px;
     border-radius: 5%;
 }
@@ -29,7 +29,7 @@ body {
 .chucked3 {
     height: 100px;
     width: 100px;
-    background-color: greenyellow;
+    background-color: rgb(123, 255, 0);
     margin-top: 70px;
     border-radius: 5%;
 }
@@ -37,7 +37,7 @@ body {
 .chucked4 {
     height: 100px;
     width: 100px;
-    background-color: purple;
+    background-color: rgb(209, 2, 255);
     margin-top: 70px;
     border-radius: 5%;
 }
@@ -45,15 +45,14 @@ body {
 .chucked5 {
     height: 100px;
     width: 100px;
-    background-color: deepskyblue;
+    background-color: rgb(0, 191, 255);
     margin-top: 70px;
     border-radius: 5%;
 }
-
 .chucked6 {
     height: 100px;
     width: 100px;
-    background-color: greenyellow;
+    background-color: rgb(138, 255, 4);
     margin-top: 70px;
     border-radius: 5%;
 }
@@ -108,19 +107,4 @@ body {
     font-size: 6rem;
 }
 
-.glow {
-    font-size: 30px;
-    color: rgb(254, 255, 255);
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-  }
   
-  @-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #02e1ff, 0 0 40px #02e1ffff, 0 0 50px #02e1ff, 0 0 60px #02e1ff, 0 0 70px #02e1ff;
-    }
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #02e1ff, 0 0 40px #02e1ff, 0 0 50px #02e1ff, 0 0 60px #02e1ff, 0 0 70px #02e1ff, 0 0 80px #02e1ff;
-    }
-  }

@@ -1,5 +1,5 @@
 // Square Animation
-gsap.from(".chucked", {
+gsap.from(".chucked1", {
     duration: 1,
     rotation: 720,
     ease: "bounce",
@@ -51,4 +51,25 @@ gsap.from(".chucked6", {
     stagger: 0.5,
     x: -500,
     y: -500,
+});
+
+gsap.from(".paragrap1", {
+    duration: 2.5,
+    stagger: 1.5,
+    opacity: 0,
+    y: 250,
+});
+
+gsap.from(".paragrph2", {
+    duration: 2.5,
+    stagger: 1.5,
+    opacity: 0,
+    y: 250,
+});
+
+gsap.from(".paragraph3", {
+    duration: 2.5,
+    stagger: 1.5,
+    opacity: 0,
+    y: 250,
 });
