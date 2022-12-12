@@ -1,0 +1,126 @@
+body {
+    background-color: black;
+    color: deeppink;
+    font-size: xx-large;
+}
+
+.animation-container {
+    width: 85%;
+    display: flex;
+    margin: 10% auto;
+}
+
+.chucked {
+    height: 100px;
+    width: 100px;
+    background-color: darkorange;
+    margin-top: 70px;
+    border-radius: 5%;
+}
+
+.chucked2 {
+    height: 100px;
+    width: 100px;
+    background-color: deeppink;
+    margin-top: 70px;
+    border-radius: 5%;
+}
+
+.chucked3 {
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    margin-top: 70px;
+    border-radius: 5%;
+}
+
+.chucked4 {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    margin-top: 70px;
+    border-radius: 5%;
+}
+
+.chucked5 {
+    height: 100px;
+    width: 100px;
+    background-color: deepskyblue;
+    margin-top: 70px;
+    border-radius: 5%;
+}
+
+.chucked6 {
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    margin-top: 70px;
+    border-radius: 5%;
+}
+
+.headline {
+    height: 100px;
+    width: 100px;
+    color: aqua;
+    margin-top: 70px;
+    border-radius: 5%;
+}
+
+.headline2 {
+    height: 100px;
+    width: 100px;
+    color: purple;
+    margin-top: 70px;
+    border-radius: 5%;
+}
+
+.headline3 {
+    height: 100px;
+    width: 100px;
+    color: greenyellow;
+    margin-top: 70px;
+    border-radius: 5%;
+}
+
+.paragraph2 {
+    color: darkorange;
+}
+    
+.column {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-box {
+    width: 70%;
+}
+
+.text-box h2 {
+    font-size: 5rem;
+    color: rgb(0, 255, 247);
+    font-family: cursive;
+}
+
+.explore {
+    font-size: 6rem;
+}
+
+.glow {
+    font-size: 30px;
+    color: rgb(254, 255, 255);
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #02e1ff, 0 0 40px #02e1ffff, 0 0 50px #02e1ff, 0 0 60px #02e1ff, 0 0 70px #02e1ff;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #02e1ff, 0 0 40px #02e1ff, 0 0 50px #02e1ff, 0 0 60px #02e1ff, 0 0 70px #02e1ff, 0 0 80px #02e1ff;
+    }
+  }
