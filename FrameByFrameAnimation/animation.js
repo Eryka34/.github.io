@@ -22,3 +22,31 @@ function animate(){
 
 
 setInterval(animate, 100)
+//Text animation
+gsap.from(".headline", {
+    duration: 1.5,
+    stagger: 2.5,
+    opacity: 0,
+    y: 150
+})
+
+gsap.from(".paragraph1", {
+    duration: 2.5,
+    stagger: 2.5,
+    opacity: 0,
+    y: 150
+})
+
+gsap.from(".glow", {
+    duration: 2.5,
+    stagger: 2.5,
+    opacity: 0,
+    y: 200
+})
+
+gsap.from(".paragraph3", {
+    duration: 2.5,
+    stagger: 2.5,
+    opacity: 0,
+    y: 200
+})
