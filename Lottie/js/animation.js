@@ -46,7 +46,5 @@ animationMonster.addEventListener('mouseleave', function() {
 });
 
 animationMonster.addEventListener('mouseenter', function() {
-    monster.playSegments([256, 302],true);
+    monster.playSegments([256, 300],true);
 });
-
-
