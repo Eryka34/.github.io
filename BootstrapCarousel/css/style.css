@@ -156,11 +156,11 @@ main {
 /* Footer ~~~~~~~ */
 .footer-hat {
   height:30px;
-  background-color: #f8feff;
-  border-top:2px solid #2e4c83;
+  background-color: #000000;
+  border-top:2px solid #000000;
 }
 footer {
-  background-color: #f8feff;
+  background-color: #000000;
   padding:25px;
   border-top:2px dashed #2e4c83;
   box-sizing: border-box;
@@ -179,34 +179,10 @@ footer h4, footer h5, footer h6 {
   flex:3;
   margin-left:25px;
 }
-footer h4 {
-  font-size: 2em;
-}
-.footer-right h6 {
-  font-size: 1.5em;
-}
-.footer-right p {
-  margin-left: 15px;
-  margin-top: 10px;
-}
 
-.footer-feet {
-  background-color: #f8feff;
-  height:40px;
-  border-top: 2px dashed #2e4c83;
-
-  display:flex;
+.footer-right img {
   align-items: center;
-  justify-content: space-between;
-  padding:10px;
-  font-size: 8pt;
 }
-
-.footer-feet p {
-  margin:0;
-}
-
-/* Special typography */
 
 .dropcap {
   float:left;
